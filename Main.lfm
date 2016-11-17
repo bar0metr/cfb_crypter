@@ -1,0 +1,160 @@
+object MainForm: TMainForm
+  Left = 218
+  Height = 193
+  Top = 132
+  Width = 420
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'CFB Шифратор - 128 bit'
+  ClientHeight = 193
+  ClientWidth = 420
+  Color = clBtnFace
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -15
+  Font.Name = 'MS Sans Serif'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '5.9'
+  object PasswordLbl: TLabel
+    Left = 8
+    Height = 16
+    Top = 10
+    Width = 123
+    Caption = 'Ключ шифрования:'
+    ParentColor = False
+  end
+  object IVLbl: TLabel
+    Left = 10
+    Height = 16
+    Top = 41
+    Width = 157
+    Caption = 'Вектор инициализации:'
+    ParentColor = False
+  end
+  object SepBevel1: TBevel
+    Left = 10
+    Height = 3
+    Top = 70
+    Width = 382
+  end
+  object FileLbl: TLabel
+    Left = 10
+    Height = 16
+    Top = 85
+    Width = 38
+    Caption = 'Файл:'
+    ParentColor = False
+  end
+  object SepBevel2: TBevel
+    Left = 10
+    Height = 3
+    Top = 116
+    Width = 382
+  end
+  object PasswordEdit: TEdit
+    Left = 162
+    Height = 24
+    Top = 6
+    Width = 230
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentFont = False
+    TabOrder = 0
+  end
+  object IVEdit: TEdit
+    Left = 179
+    Height = 24
+    Top = 37
+    Width = 213
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    MaxLength = 16
+    ParentFont = False
+    TabOrder = 1
+    Text = '7A9C840AF8472291'
+  end
+  object FileEdit: TEdit
+    Left = 71
+    Height = 24
+    Top = 81
+    Width = 213
+    TabOrder = 2
+  end
+  object BrowseBtn: TButton
+    Left = 296
+    Height = 31
+    Top = 80
+    Width = 120
+    Caption = 'Выбрать файл...'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    OnClick = BrowseBtnClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object EncryptBtn: TButton
+    Left = 10
+    Height = 32
+    Top = 125
+    Width = 125
+    Caption = 'Зашифровать'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    OnClick = EncryptBtnClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object DecryptBtn: TButton
+    Tag = 1
+    Left = 144
+    Height = 32
+    Top = 125
+    Width = 139
+    Caption = 'Дешифровать'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    OnClick = EncryptBtnClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object QuitBtn: TButton
+    Left = 312
+    Height = 32
+    Top = 125
+    Width = 104
+    Caption = 'Выход'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    OnClick = QuitBtnClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Bar: TProgressBar
+    Left = 10
+    Height = 21
+    Top = 165
+    Width = 406
+    Max = 0
+    TabOrder = 7
+  end
+  object OpenDlg: TOpenDialog
+    Title = 'Choisir un fichier ...'
+    Filter = 'Tous les fichiers|*.*'
+    left = 144
+    top = 56
+  end
+end

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="CFB_Crypter.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="105" Y="4"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="3" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="core.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Core"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="92" Y="10"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="MD5Api.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="102" Y="16"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="MD5Core.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\codetyphon\fpcsrc\rtl\inc\file.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="404"/>
+        <CursorPos X="10" Y="417"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="MD5Api.pas"/>
+        <Caret Line="117" Column="79" TopLine="101"/>
+      </Position1>
+      <Position2>
+        <Filename Value="MD5Api.pas"/>
+        <Caret Line="92" Column="2" TopLine="79"/>
+      </Position2>
+      <Position3>
+        <Filename Value="MD5Api.pas"/>
+        <Caret Line="113" Column="70" TopLine="101"/>
+      </Position3>
+      <Position4>
+        <Filename Value="MD5Api.pas"/>
+        <Caret Line="117" Column="79" TopLine="101"/>
+      </Position4>
+      <Position5>
+        <Filename Value="MD5Api.pas"/>
+        <Caret Line="113" Column="77" TopLine="101"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Main.pas"/>
+        <Caret Line="122" Column="146" TopLine="106"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Main.pas"/>
+        <Caret Line="8" Column="3"/>
+      </Position7>
+      <Position8>
+        <Filename Value="CFB_Crypter.lpr"/>
+        <Caret Line="7" Column="33"/>
+      </Position8>
+      <Position9>
+        <Filename Value="CFB_Crypter.lpr"/>
+        <Caret Line="8"/>
+      </Position9>
+      <Position10>
+        <Filename Value="CFB_Crypter.lpr"/>
+        <Caret Line="7" Column="33"/>
+      </Position10>
+      <Position11>
+        <Filename Value="CFB_Crypter.lpr"/>
+        <Caret Line="8" Column="42"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Main.pas"/>
+        <Caret Line="8" Column="3"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
