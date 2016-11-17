@@ -1,2 +1,2 @@
 # CFB Crypter
-Program to encrypt files by using the cipher feedback mode (CFB) written on Lazarus
+Program to encrypt files by using the 128bit Cipher Feedback Mode (CFB) written on Lazarus
